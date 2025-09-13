@@ -3,6 +3,7 @@ vendor-reset-y += \
 	src/amd/compat.o \
 	src/amd/firmware.o \
 	src/amd/navi10.o \
+	src/amd/navi22.o \
 	src/amd/polaris10.o \
 	src/amd/vega10.o \
 	src/amd/vega20.o \
@@ -15,6 +16,7 @@ vendor-reset-y += \
 	src/amd/amdgpu/navi10_reg_init.o \
 	src/amd/amdgpu/navi12_reg_init.o \
 	src/amd/amdgpu/navi14_reg_init.o \
+	src/amd/amdgpu/navi22_reg_init.o \
 	src/amd/amdgpu/navi23_reg_init.o \
 	src/amd/amdgpu/polaris_baco.o \
 	src/amd/amdgpu/smu7_baco.o \
